@@ -1,0 +1,9 @@
+[package]
+name = "fdk"
+version = "0.1.0"
+authors = ["Richard Connon <richard.connon@oracle.com>"]
+
+[dependencies]
+hyper = "0.12.10"
+hyperlocal = "0.6.0"
+futures = "0.1.24"

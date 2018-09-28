@@ -1,0 +1,5 @@
+runtime: rust
+build_image: rconnon/fdk-rust-build:TAG
+run_image: rconnon/fdk-rust-runtime:TAG
+cmd: /function/func
+format: http-stream

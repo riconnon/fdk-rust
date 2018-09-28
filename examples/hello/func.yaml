@@ -1,0 +1,8 @@
+schema_version: 20180708
+name: hello
+version: 0.0.1
+runtime: rust
+build_image: rconnon/fdk-rust-build:latest
+run_image: rconnon/fdk-rust-runtime:latest
+cmd: /function/func
+format: http-stream
